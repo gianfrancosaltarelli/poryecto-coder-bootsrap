@@ -1,0 +1,161 @@
+.img{
+    width: 100%;
+}
+
+.card-group{
+    background-color: black;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-logo a {
+    margin: 0 10px;
+  }
+  
+  .footer-logo a img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+
+.titulo {
+    color: #4d4cce;
+}
+
+form {
+    color:#4d4cce;
+  }
+  
+label {
+    color: #4d4cce;
+  }
+
+input, textarea {
+    color: #4d4cce;
+  }
+  
+input[type="radio"] {
+    color: #4d4cce;
+  }
+  
+input[type="submit"] {
+    color: #4d4cce;
+  }
+  
+
+input[type="reset"] {
+    color: #4d4cce;
+  }
+
+.texto {
+    color: #4d4cce;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+
+	
+}
+
+.card .textos {
+	height: 100%;
+	
+	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+h3 {
+  color: #4d4cce;
+}
