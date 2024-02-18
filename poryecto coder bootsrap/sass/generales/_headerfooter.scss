@@ -1,0 +1,25 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    a {
+      margin: 0 10px;
+  
+      img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
+  
