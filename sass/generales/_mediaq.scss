@@ -1,0 +1,107 @@
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 700px) {}
+
+@media screen and (max-width: 600px) {}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: auto;
+  }
+
+  main {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 0 15px;
+  }
+
+  header .img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  main iframe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: auto;
+  }
+
+  main iframe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: auto;
+  }
+
+  main {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 0 15px;
+  }
+
+  header .img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.contacto {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  form {
+    max-width: 100%;
+
+    div {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .img {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .elemento-a-ocultar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lh-1, .lh-sm, .lh-base, .lh-lg {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lh-1, .lh-sm, .lh-base, .lh-lg {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
